@@ -3,6 +3,8 @@
 The Node API is the public interface for the Polyglot System Manager (PSM).  
 It exposes metrics, history, alerts, and system status to the HTML5 dashboard and external clients.
 
+This service can be started individually (see instructions below) or launched automatically using the global start script located in /scripts.
+
 ## Responsibilities
 - Serve REST endpoints
 - Fetch metrics from Python orchestrator

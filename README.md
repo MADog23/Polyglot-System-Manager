@@ -33,6 +33,17 @@ Each component has a **single, well-defined responsibility**, making the system 
 
 ---
 
+## Quick Start
+To launch the entire system at once:
+
+Linux/macOS:
+    ./scripts/start.sh
+
+Windows:
+    ./scripts/start.ps1
+
+---
+
 ## **🧩 Architecture**
 
 ```

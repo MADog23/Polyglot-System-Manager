@@ -3,6 +3,10 @@
 The Python Orchestrator is the central coordinator of the Polyglot System Manager (PSM).  
 It polls the C++ agent, normalizes metrics, stores history, and forwards data to the Java services.
 
+Note: The orchestrator does not automatically launch other components. 
+Use the /scripts/start.sh or start.ps1 script to start the full system.
+
+
 ## Responsibilities
 - Poll C++ metrics agent
 - Normalize raw metrics

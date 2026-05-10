@@ -3,6 +3,8 @@
 The Dashboard is the user interface for the Polyglot System Manager (PSM).  
 It visualizes system metrics, alerts, and history using data from the Node.js API.
 
+This service can be started individually (see instructions below) or launched automatically using the global start script located in /scripts.
+
 ## Features
 - CPU & memory gauges
 - Disk & network charts

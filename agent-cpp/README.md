@@ -3,6 +3,8 @@
 The C++ Metrics Agent is the low‑level system collector for the Polyglot System Manager (PSM).  
 It gathers raw host metrics with high performance and exposes them through a simple JSON protocol.
 
+This service can be started individually (see instructions below) or launched automatically using the global start script located in /scripts.
+
 ## Features
 - CPU usage
 - Memory usage
